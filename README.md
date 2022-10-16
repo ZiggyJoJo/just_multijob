@@ -5,10 +5,11 @@
 * All options are adjustable in the config
 
 * Allows players to have multiple jobs at once 
-* The top two ranks can manage employees and rename job job grades (Can be dissabled in config)
-* Includes shared garages for each businnes (Can be dissabled in config)
-* Includes shared storage for each businnes (Can be dissabled in config)
-* Includes Cardealer, Police, EMS, and Taxi jobs by default but you can easilly add more in the config
+* The top two ranks can manage employees and rename job grades (Can be disabled in config)
+* Includes shared garages for each business (Can be disabled in config)
+* Includes shared storage for each business (Can be disabled in config)
+* Includes Car dealer, Police, EMS, and Taxi jobs by default but you can easily add more in the config
+
 # Dependencies
 
 - ESX 
