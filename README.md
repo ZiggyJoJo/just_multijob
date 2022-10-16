@@ -35,13 +35,13 @@ Server Side event
                 jobs = json.decode(jobs)
             end
         end
-    end```
-
-Seerver Side Example
+    end
+```
+Server Side Example
 
 ox_doorlock serveer/framework.lua line 44 add
-
-```	if door.groups then
+```
+	if door.groups then
 		if #jobs < 1 then
 			jobs = MySQL.scalar.await('SELECT jobs FROM users WHERE identifier = @identifier', {['@identifier'] = player.identifier})
 			jobs = json.decode(jobs)
@@ -56,7 +56,8 @@ ox_doorlock serveer/framework.lua line 44 add
 				end
 			end
 		end
-	end```
+	end
+```
 
 Client Side Callback
 
